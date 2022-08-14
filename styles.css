@@ -184,18 +184,23 @@
     box-sizing: border-box;
     position: relative;
     overflow: hidden;
-    min-height: 300px;
+    min-height: 450px;
 }
 
 .slider .slider__slides {
 }
 
 .slider .slider__slide {
-    background: chocolate;
     width: 100%;
-    padding: 10px;
     box-sizing: border-box;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    min-height: 450px;
+    justify-content: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .slider .slider__slide:first-child {
@@ -229,8 +234,16 @@
     animation-iteration-count: infinite;
 }
 
+.slider .slider__wrapper {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
 .slider .slider__hdl {
     font-family: "Times New Roman", Times, Baskerville, Georgia, sans-serif;
+    margin-top: 0;
 }
 
 .slider .slider__description {
