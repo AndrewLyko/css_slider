@@ -199,42 +199,47 @@
 }
 
 .slider .slider__slide:first-child {
+    background-image: url("./media/img1.jpg");
     animation-name: move_slide1;
-    animation-duration: 20s;
+    animation-duration: 25s;
     animation-iteration-count: infinite;
 }
 
 .slider .slider__slide:nth-child(2) {
-    background: lightpink;
+    background-image: url("./media/img2.jpg");
     left: 100%;
     animation-name: move_slide2;
-    animation-duration: 20s;
+    animation-duration: 25s;
     animation-iteration-count: infinite;
 }
 
 .slider .slider__slide:nth-child(3) {
-    background: lightpink;
+    background-image: url("./media/img3.jpg");
     left: 200%;
     animation-name: move_slide3;
-    animation-duration: 20s;
+    animation-duration: 25s;
     animation-iteration-count: infinite;
 }
 
 .slider .slider__slide:last-child {
-    background: lightgreen;
+    background-image: url("./media/img4.jpg");
     left: 300%;
     animation-name: move_slide4;
-    animation-duration: 20s;
+    animation-duration: 25s;
     animation-iteration-count: infinite;
 }
 
 .slider .slider__hdl {
+    font-family: "Times New Roman", Times, Baskerville, Georgia, sans-serif;
 }
 
 .slider .slider__description {
+    font-family: "Times New Roman", Times, Baskerville, Georgia, sans-serif;
 }
 
 .slider .slider__link {
+    font-family: "Times New Roman", Times, Baskerville, Georgia, sans-serif;
+    align-self: flex-end;
 }
 
 .slider .slider__nav {
